@@ -1,0 +1,13 @@
+GET /departments HTTP/1.1
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /department-members?departmentIds= HTTP/1.1
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /department-members?departmentIds=L1001, L1002 HTTP/1.1
+Host: localhost:8080
+Accept: application/json
